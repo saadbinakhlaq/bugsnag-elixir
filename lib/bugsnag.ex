@@ -5,7 +5,7 @@ defmodule Bugsnag do
 
   alias Bugsnag.Payload
 
-  @notify_url "https://notify.bugsnag.com"
+  @notify_url "https://bugsnag.mercedes-benz.io:4900"
   @request_headers [{"Content-Type", "application/json"}]
 
   def start(_type, _args) do
